@@ -10,8 +10,8 @@ from sklearn.metrics import average_precision_score
 # define the model
 class Predictor(nn.Module):
     def __init__(self, input_size):
-	super(Predictor,self).__init__()
-    	self.l1 = nn.Linear(input_size, input_size/2)
+        super(Predictor,self).__init__()
+        self.l1 = nn.Linear(input_size, input_size/2)
         self.drop = nn.Dropout(0.2)
         self.sig = nn.Sigmoid()
         self.tanh = nn.Tanh()
