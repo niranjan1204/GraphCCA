@@ -1,0 +1,3 @@
+Test ROC score for Z: 0.7712230267634996
+Test ROC score for A: 0.7613716968699703
+Test ROC score for C: 0.7720367696567516
