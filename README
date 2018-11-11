@@ -2,3 +2,7 @@
 - python3 execute.py -config configfile
 # Command to fit the model 
 - python3 accuracy.py -config configfile
+
+Designed a probabilistic generative framework for incorporating Side Information into any existing graph Node
+Embedding architecture using Bayesian CCA in Python using Keras/PyTorch.
+Implemented and analyzed performance with vanilla deepwalk as base model on link-prediction task.
